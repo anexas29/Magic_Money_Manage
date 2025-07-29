@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+import os
+st.write("Installed packages:", os.popen("pip list").read())
+
 import matplotlib.pyplot as plt
 import joblib
 import google.generativeai as genai
