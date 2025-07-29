@@ -3,7 +3,7 @@ google-generativeai
 numpy
 scikit-learn
 nltk
-matplotlib
+matplotlib.pyplot
 seaborn
 streamlit
 joblib
